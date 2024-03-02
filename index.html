@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Daisy Ui -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+<h2 class="text-center text-2xl font-bold">AI Universe Hub</h2>
+<button class="btn border-t-pink-700 bg-orange-300 text-black ml-[45%] mt-5">Sort By Date</button>
+</header>
+ <main>
+    <div id="main-container" class="grid grid-cols-3 mt-10 gap-8">
+        
+       
+
+    </div>
+    <div id="show-detail-container">
+
+    </div>
+    <dialog id="show_details_modal" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box  bg-orange-300 w-[400px] h-[350px]">
+          <h3 id="phone-name" class="font-bold text-lg"></h3>
+          <div id="show-detail-container">
+          </div>
+          <p class="py-4 text-center text-2xl"><strong>Thank You for purchase</strong></p>
+          <div class="modal-action">
+            <form method="dialog">
+              <button class="btn btn-error justify-center mr-32">Continue</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+ </main>
+ <footer>
+
+ </footer>
+  <script src="index.js"></script>
+</body>
+</html>
